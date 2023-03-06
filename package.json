@@ -1,0 +1,30 @@
+{
+  "name": "vue-kiki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MARK129428/vue-kiki.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MARK129428/vue-kiki/issues"
+  },
+  "homepage": "https://github.com/MARK129428/vue-kiki#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.17.2",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  }
+}
