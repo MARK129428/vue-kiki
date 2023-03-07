@@ -9,3 +9,5 @@ export const isFunction = (val: unknown): val is Function => {
 }
 
 export const EMPTY_OBJ: { readonly [key:string] : any } = {}
+
+export const isString = (val: unknown): val is String => typeof val === 'string'
